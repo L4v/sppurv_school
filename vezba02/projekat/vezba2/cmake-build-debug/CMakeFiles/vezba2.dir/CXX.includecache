@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/jigsaw/workspace/sppurv/sppurv_school/vezba02/projekat/vezba2/main.cpp
+iostream
+-
+fstream
+-
+string
+-
+list
+-
+vector
+-
+map
+-
+

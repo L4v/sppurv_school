@@ -1,0 +1,3 @@
+/home/jigsaw/workspace/sppurv/sppurv_school/vezba02/projekat/vezba2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/jigsaw/workspace/sppurv/sppurv_school/vezba02/projekat/vezba2/cmake-build-debug/CMakeFiles/vezba2.dir
+/home/jigsaw/workspace/sppurv/sppurv_school/vezba02/projekat/vezba2/cmake-build-debug/CMakeFiles/edit_cache.dir
