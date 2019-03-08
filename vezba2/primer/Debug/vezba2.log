@@ -1,0 +1,5 @@
+﻿  main.cpp
+d:\studenti\ra30-2017\vezba2\primer\main.cpp(281): warning C4267: 'initializing': conversion from 'size_t' to 'char', possible loss of data
+d:\studenti\ra30-2017\vezba2\primer\main.cpp(284): warning C4267: '=': conversion from 'size_t' to 'char', possible loss of data
+  vezba2.vcxproj -> D:\STUDENTI\RA30-2017\vezba2\primer\Debug\vezba2.exe
+  vezba2.vcxproj -> D:\STUDENTI\RA30-2017\vezba2\primer\Debug\vezba2.pdb (Full PDB)
