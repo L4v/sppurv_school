@@ -6,11 +6,19 @@
 
 #IncludeRegexTransform: 
 
-/home/hk-47/workspace/sppurv/sppurv_school/_homework/vezba03/matrixFunctions.cpp
+/home/jigsaw/workspace/sppurv/sppurv_school/_homework/vezba03/matrixFunctions.cpp
 iostream
 -
+algorithm
+-
+vector
+-
+time.h
+-
+stdlib.h
+-
 matrixFunctions.h
-/home/hk-47/workspace/sppurv/sppurv_school/_homework/vezba03/matrixFunctions.h
+/home/jigsaw/workspace/sppurv/sppurv_school/_homework/vezba03/matrixFunctions.h
 
-/home/hk-47/workspace/sppurv/sppurv_school/_homework/vezba03/matrixFunctions.h
+/home/jigsaw/workspace/sppurv/sppurv_school/_homework/vezba03/matrixFunctions.h
 

@@ -1,4 +1,4 @@
-The system is: Linux - 4.20.8-arch1-1-ARCH - x86_64
+The system is: Linux - 4.20.13-arch1-1-ARCH - x86_64
 Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
 Compiler: /usr/bin/cc 
 Build flags: 
@@ -10,7 +10,7 @@ The output was:
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
 
-The C compiler identification is GNU, found in "/home/hk-47/workspace/sppurv/sppurv_school/_homework/vezba03/cmake-build-debug/CMakeFiles/3.13.2/CompilerIdC/a.out"
+The C compiler identification is GNU, found in "/home/jigsaw/workspace/sppurv/sppurv_school/_homework/vezba03/cmake-build-debug/CMakeFiles/3.13.2/CompilerIdC/a.out"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
 Compiler: /usr/bin/c++ 
@@ -23,33 +23,33 @@ The output was:
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
 
-The CXX compiler identification is GNU, found in "/home/hk-47/workspace/sppurv/sppurv_school/_homework/vezba03/cmake-build-debug/CMakeFiles/3.13.2/CompilerIdCXX/a.out"
+The CXX compiler identification is GNU, found in "/home/jigsaw/workspace/sppurv/sppurv_school/_homework/vezba03/cmake-build-debug/CMakeFiles/3.13.2/CompilerIdCXX/a.out"
 
 Determining if the C compiler works passed with the following output:
-Change Dir: /home/hk-47/workspace/sppurv/sppurv_school/_homework/vezba03/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/jigsaw/workspace/sppurv/sppurv_school/_homework/vezba03/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_94376/fast"
-/usr/bin/make -f CMakeFiles/cmTC_94376.dir/build.make CMakeFiles/cmTC_94376.dir/build
-make[1]: Entering directory '/home/hk-47/workspace/sppurv/sppurv_school/_homework/vezba03/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_94376.dir/testCCompiler.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_94376.dir/testCCompiler.c.o   -c /home/hk-47/workspace/sppurv/sppurv_school/_homework/vezba03/cmake-build-debug/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_94376
-/home/hk-47/Downloads/_zips/_extracts/CLion-2018.3.4/clion-2018.3.4/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_94376.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_94376.dir/testCCompiler.c.o  -o cmTC_94376 
-make[1]: Leaving directory '/home/hk-47/workspace/sppurv/sppurv_school/_homework/vezba03/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_cbe75/fast"
+/usr/bin/make -f CMakeFiles/cmTC_cbe75.dir/build.make CMakeFiles/cmTC_cbe75.dir/build
+make[1]: Entering directory '/home/jigsaw/workspace/sppurv/sppurv_school/_homework/vezba03/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_cbe75.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_cbe75.dir/testCCompiler.c.o   -c /home/jigsaw/workspace/sppurv/sppurv_school/_homework/vezba03/cmake-build-debug/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_cbe75
+/home/jigsaw/Downloads/_zips/_extracted/CLion-2018.3.4/clion-2018.3.4/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cbe75.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_cbe75.dir/testCCompiler.c.o  -o cmTC_cbe75 
+make[1]: Leaving directory '/home/jigsaw/workspace/sppurv/sppurv_school/_homework/vezba03/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: /home/hk-47/workspace/sppurv/sppurv_school/_homework/vezba03/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/jigsaw/workspace/sppurv/sppurv_school/_homework/vezba03/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_1a076/fast"
-/usr/bin/make -f CMakeFiles/cmTC_1a076.dir/build.make CMakeFiles/cmTC_1a076.dir/build
-make[1]: Entering directory '/home/hk-47/workspace/sppurv/sppurv_school/_homework/vezba03/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_1a076.dir/CMakeCCompilerABI.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_1a076.dir/CMakeCCompilerABI.c.o   -c /home/hk-47/Downloads/_zips/_extracts/CLion-2018.3.4/clion-2018.3.4/bin/cmake/linux/share/cmake-3.13/Modules/CMakeCCompilerABI.c
-Linking C executable cmTC_1a076
-/home/hk-47/Downloads/_zips/_extracts/CLion-2018.3.4/clion-2018.3.4/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1a076.dir/link.txt --verbose=1
-/usr/bin/cc     -v CMakeFiles/cmTC_1a076.dir/CMakeCCompilerABI.c.o  -o cmTC_1a076 
+Run Build Command:"/usr/bin/make" "cmTC_23b76/fast"
+/usr/bin/make -f CMakeFiles/cmTC_23b76.dir/build.make CMakeFiles/cmTC_23b76.dir/build
+make[1]: Entering directory '/home/jigsaw/workspace/sppurv/sppurv_school/_homework/vezba03/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_23b76.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_23b76.dir/CMakeCCompilerABI.c.o   -c /home/jigsaw/Downloads/_zips/_extracted/CLion-2018.3.4/clion-2018.3.4/bin/cmake/linux/share/cmake-3.13/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_23b76
+/home/jigsaw/Downloads/_zips/_extracted/CLion-2018.3.4/clion-2018.3.4/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_23b76.dir/link.txt --verbose=1
+/usr/bin/cc     -v CMakeFiles/cmTC_23b76.dir/CMakeCCompilerABI.c.o  -o cmTC_23b76 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/cc
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/lto-wrapper
@@ -59,24 +59,24 @@ Thread model: posix
 gcc version 8.2.1 20181127 (GCC) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_1a076' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccsm3GTr.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_1a076 /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../.. CMakeFiles/cmTC_1a076.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_1a076' '-mtune=generic' '-march=x86-64'
-make[1]: Leaving directory '/home/hk-47/workspace/sppurv/sppurv_school/_homework/vezba03/cmake-build-debug/CMakeFiles/CMakeTmp'
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_23b76' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccHzCrJC.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_23b76 /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../.. CMakeFiles/cmTC_23b76.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_23b76' '-mtune=generic' '-march=x86-64'
+make[1]: Leaving directory '/home/jigsaw/workspace/sppurv/sppurv_school/_homework/vezba03/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/hk-47/workspace/sppurv/sppurv_school/_homework/vezba03/cmake-build-debug/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/jigsaw/workspace/sppurv/sppurv_school/_homework/vezba03/cmake-build-debug/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_1a076/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_1a076.dir/build.make CMakeFiles/cmTC_1a076.dir/build]
-  ignore line: [make[1]: Entering directory '/home/hk-47/workspace/sppurv/sppurv_school/_homework/vezba03/cmake-build-debug/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_1a076.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTC_1a076.dir/CMakeCCompilerABI.c.o   -c /home/hk-47/Downloads/_zips/_extracts/CLion-2018.3.4/clion-2018.3.4/bin/cmake/linux/share/cmake-3.13/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTC_1a076]
-  ignore line: [/home/hk-47/Downloads/_zips/_extracts/CLion-2018.3.4/clion-2018.3.4/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1a076.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/cc     -v CMakeFiles/cmTC_1a076.dir/CMakeCCompilerABI.c.o  -o cmTC_1a076 ]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_23b76/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_23b76.dir/build.make CMakeFiles/cmTC_23b76.dir/build]
+  ignore line: [make[1]: Entering directory '/home/jigsaw/workspace/sppurv/sppurv_school/_homework/vezba03/cmake-build-debug/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_23b76.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTC_23b76.dir/CMakeCCompilerABI.c.o   -c /home/jigsaw/Downloads/_zips/_extracted/CLion-2018.3.4/clion-2018.3.4/bin/cmake/linux/share/cmake-3.13/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_23b76]
+  ignore line: [/home/jigsaw/Downloads/_zips/_extracted/CLion-2018.3.4/clion-2018.3.4/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_23b76.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc     -v CMakeFiles/cmTC_23b76.dir/CMakeCCompilerABI.c.o  -o cmTC_23b76 ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/cc]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/lto-wrapper]
@@ -86,13 +86,13 @@ Parsed C implicit link information from above output:
   ignore line: [gcc version 8.2.1 20181127 (GCC) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_1a076' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccsm3GTr.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_1a076 /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../.. CMakeFiles/cmTC_1a076.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_23b76' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccHzCrJC.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_23b76 /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../.. CMakeFiles/cmTC_23b76.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib/crtn.o]
     arg [/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccsm3GTr.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccHzCrJC.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -107,7 +107,7 @@ Parsed C implicit link information from above output:
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-pie] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_1a076] ==> ignore
+    arg [cmTC_23b76] ==> ignore
     arg [/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib/Scrt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/crtbeginS.o] ==> ignore
@@ -116,7 +116,7 @@ Parsed C implicit link information from above output:
     arg [-L/lib/../lib] ==> dir [/lib/../lib]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../..] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../..]
-    arg [CMakeFiles/cmTC_1a076.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_23b76.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--as-needed] ==> ignore
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -141,17 +141,17 @@ Parsed C implicit link information from above output:
 
 
 Detecting C [-std=c11] compiler features compiled with the following output:
-Change Dir: /home/hk-47/workspace/sppurv/sppurv_school/_homework/vezba03/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/jigsaw/workspace/sppurv/sppurv_school/_homework/vezba03/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_6e361/fast"
-/usr/bin/make -f CMakeFiles/cmTC_6e361.dir/build.make CMakeFiles/cmTC_6e361.dir/build
-make[1]: Entering directory '/home/hk-47/workspace/sppurv/sppurv_school/_homework/vezba03/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_6e361.dir/feature_tests.c.o
-/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_6e361.dir/feature_tests.c.o   -c /home/hk-47/workspace/sppurv/sppurv_school/_homework/vezba03/cmake-build-debug/CMakeFiles/feature_tests.c
-Linking C executable cmTC_6e361
-/home/hk-47/Downloads/_zips/_extracts/CLion-2018.3.4/clion-2018.3.4/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6e361.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_6e361.dir/feature_tests.c.o  -o cmTC_6e361 
-make[1]: Leaving directory '/home/hk-47/workspace/sppurv/sppurv_school/_homework/vezba03/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_18dd0/fast"
+/usr/bin/make -f CMakeFiles/cmTC_18dd0.dir/build.make CMakeFiles/cmTC_18dd0.dir/build
+make[1]: Entering directory '/home/jigsaw/workspace/sppurv/sppurv_school/_homework/vezba03/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_18dd0.dir/feature_tests.c.o
+/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_18dd0.dir/feature_tests.c.o   -c /home/jigsaw/workspace/sppurv/sppurv_school/_homework/vezba03/cmake-build-debug/CMakeFiles/feature_tests.c
+Linking C executable cmTC_18dd0
+/home/jigsaw/Downloads/_zips/_extracted/CLion-2018.3.4/clion-2018.3.4/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_18dd0.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_18dd0.dir/feature_tests.c.o  -o cmTC_18dd0 
+make[1]: Leaving directory '/home/jigsaw/workspace/sppurv/sppurv_school/_homework/vezba03/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -161,17 +161,17 @@ make[1]: Leaving directory '/home/hk-47/workspace/sppurv/sppurv_school/_homework
 
 
 Detecting C [-std=c99] compiler features compiled with the following output:
-Change Dir: /home/hk-47/workspace/sppurv/sppurv_school/_homework/vezba03/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/jigsaw/workspace/sppurv/sppurv_school/_homework/vezba03/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_8fe07/fast"
-/usr/bin/make -f CMakeFiles/cmTC_8fe07.dir/build.make CMakeFiles/cmTC_8fe07.dir/build
-make[1]: Entering directory '/home/hk-47/workspace/sppurv/sppurv_school/_homework/vezba03/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_8fe07.dir/feature_tests.c.o
-/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_8fe07.dir/feature_tests.c.o   -c /home/hk-47/workspace/sppurv/sppurv_school/_homework/vezba03/cmake-build-debug/CMakeFiles/feature_tests.c
-Linking C executable cmTC_8fe07
-/home/hk-47/Downloads/_zips/_extracts/CLion-2018.3.4/clion-2018.3.4/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8fe07.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_8fe07.dir/feature_tests.c.o  -o cmTC_8fe07 
-make[1]: Leaving directory '/home/hk-47/workspace/sppurv/sppurv_school/_homework/vezba03/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_f75ae/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f75ae.dir/build.make CMakeFiles/cmTC_f75ae.dir/build
+make[1]: Entering directory '/home/jigsaw/workspace/sppurv/sppurv_school/_homework/vezba03/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f75ae.dir/feature_tests.c.o
+/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_f75ae.dir/feature_tests.c.o   -c /home/jigsaw/workspace/sppurv/sppurv_school/_homework/vezba03/cmake-build-debug/CMakeFiles/feature_tests.c
+Linking C executable cmTC_f75ae
+/home/jigsaw/Downloads/_zips/_extracted/CLion-2018.3.4/clion-2018.3.4/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f75ae.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_f75ae.dir/feature_tests.c.o  -o cmTC_f75ae 
+make[1]: Leaving directory '/home/jigsaw/workspace/sppurv/sppurv_school/_homework/vezba03/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -181,17 +181,17 @@ make[1]: Leaving directory '/home/hk-47/workspace/sppurv/sppurv_school/_homework
 
 
 Detecting C [-std=c90] compiler features compiled with the following output:
-Change Dir: /home/hk-47/workspace/sppurv/sppurv_school/_homework/vezba03/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/jigsaw/workspace/sppurv/sppurv_school/_homework/vezba03/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_e9722/fast"
-/usr/bin/make -f CMakeFiles/cmTC_e9722.dir/build.make CMakeFiles/cmTC_e9722.dir/build
-make[1]: Entering directory '/home/hk-47/workspace/sppurv/sppurv_school/_homework/vezba03/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_e9722.dir/feature_tests.c.o
-/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_e9722.dir/feature_tests.c.o   -c /home/hk-47/workspace/sppurv/sppurv_school/_homework/vezba03/cmake-build-debug/CMakeFiles/feature_tests.c
-Linking C executable cmTC_e9722
-/home/hk-47/Downloads/_zips/_extracts/CLion-2018.3.4/clion-2018.3.4/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e9722.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_e9722.dir/feature_tests.c.o  -o cmTC_e9722 
-make[1]: Leaving directory '/home/hk-47/workspace/sppurv/sppurv_school/_homework/vezba03/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_095fc/fast"
+/usr/bin/make -f CMakeFiles/cmTC_095fc.dir/build.make CMakeFiles/cmTC_095fc.dir/build
+make[1]: Entering directory '/home/jigsaw/workspace/sppurv/sppurv_school/_homework/vezba03/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_095fc.dir/feature_tests.c.o
+/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_095fc.dir/feature_tests.c.o   -c /home/jigsaw/workspace/sppurv/sppurv_school/_homework/vezba03/cmake-build-debug/CMakeFiles/feature_tests.c
+Linking C executable cmTC_095fc
+/home/jigsaw/Downloads/_zips/_extracted/CLion-2018.3.4/clion-2018.3.4/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_095fc.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_095fc.dir/feature_tests.c.o  -o cmTC_095fc 
+make[1]: Leaving directory '/home/jigsaw/workspace/sppurv/sppurv_school/_homework/vezba03/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -199,30 +199,30 @@ make[1]: Leaving directory '/home/hk-47/workspace/sppurv/sppurv_school/_homework
     Feature record: C_FEATURE:0c_static_assert
     Feature record: C_FEATURE:0c_variadic_macros
 Determining if the CXX compiler works passed with the following output:
-Change Dir: /home/hk-47/workspace/sppurv/sppurv_school/_homework/vezba03/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/jigsaw/workspace/sppurv/sppurv_school/_homework/vezba03/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_2106f/fast"
-/usr/bin/make -f CMakeFiles/cmTC_2106f.dir/build.make CMakeFiles/cmTC_2106f.dir/build
-make[1]: Entering directory '/home/hk-47/workspace/sppurv/sppurv_school/_homework/vezba03/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_2106f.dir/testCXXCompiler.cxx.o
-/usr/bin/c++     -o CMakeFiles/cmTC_2106f.dir/testCXXCompiler.cxx.o -c /home/hk-47/workspace/sppurv/sppurv_school/_homework/vezba03/cmake-build-debug/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_2106f
-/home/hk-47/Downloads/_zips/_extracts/CLion-2018.3.4/clion-2018.3.4/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2106f.dir/link.txt --verbose=1
-/usr/bin/c++       CMakeFiles/cmTC_2106f.dir/testCXXCompiler.cxx.o  -o cmTC_2106f 
-make[1]: Leaving directory '/home/hk-47/workspace/sppurv/sppurv_school/_homework/vezba03/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_98d62/fast"
+/usr/bin/make -f CMakeFiles/cmTC_98d62.dir/build.make CMakeFiles/cmTC_98d62.dir/build
+make[1]: Entering directory '/home/jigsaw/workspace/sppurv/sppurv_school/_homework/vezba03/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_98d62.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_98d62.dir/testCXXCompiler.cxx.o -c /home/jigsaw/workspace/sppurv/sppurv_school/_homework/vezba03/cmake-build-debug/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_98d62
+/home/jigsaw/Downloads/_zips/_extracted/CLion-2018.3.4/clion-2018.3.4/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_98d62.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_98d62.dir/testCXXCompiler.cxx.o  -o cmTC_98d62 
+make[1]: Leaving directory '/home/jigsaw/workspace/sppurv/sppurv_school/_homework/vezba03/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: /home/hk-47/workspace/sppurv/sppurv_school/_homework/vezba03/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/jigsaw/workspace/sppurv/sppurv_school/_homework/vezba03/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_feb96/fast"
-/usr/bin/make -f CMakeFiles/cmTC_feb96.dir/build.make CMakeFiles/cmTC_feb96.dir/build
-make[1]: Entering directory '/home/hk-47/workspace/sppurv/sppurv_school/_homework/vezba03/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_feb96.dir/CMakeCXXCompilerABI.cpp.o
-/usr/bin/c++     -o CMakeFiles/cmTC_feb96.dir/CMakeCXXCompilerABI.cpp.o -c /home/hk-47/Downloads/_zips/_extracts/CLion-2018.3.4/clion-2018.3.4/bin/cmake/linux/share/cmake-3.13/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_feb96
-/home/hk-47/Downloads/_zips/_extracts/CLion-2018.3.4/clion-2018.3.4/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_feb96.dir/link.txt --verbose=1
-/usr/bin/c++      -v CMakeFiles/cmTC_feb96.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_feb96 
+Run Build Command:"/usr/bin/make" "cmTC_5147e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5147e.dir/build.make CMakeFiles/cmTC_5147e.dir/build
+make[1]: Entering directory '/home/jigsaw/workspace/sppurv/sppurv_school/_homework/vezba03/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_5147e.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++     -o CMakeFiles/cmTC_5147e.dir/CMakeCXXCompilerABI.cpp.o -c /home/jigsaw/Downloads/_zips/_extracted/CLion-2018.3.4/clion-2018.3.4/bin/cmake/linux/share/cmake-3.13/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_5147e
+/home/jigsaw/Downloads/_zips/_extracted/CLion-2018.3.4/clion-2018.3.4/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5147e.dir/link.txt --verbose=1
+/usr/bin/c++      -v CMakeFiles/cmTC_5147e.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_5147e 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/c++
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/lto-wrapper
@@ -232,24 +232,24 @@ Thread model: posix
 gcc version 8.2.1 20181127 (GCC) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_feb96' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccL8JpFR.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_feb96 /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../.. CMakeFiles/cmTC_feb96.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_feb96' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
-make[1]: Leaving directory '/home/hk-47/workspace/sppurv/sppurv_school/_homework/vezba03/cmake-build-debug/CMakeFiles/CMakeTmp'
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_5147e' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccIl463I.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_5147e /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../.. CMakeFiles/cmTC_5147e.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_5147e' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+make[1]: Leaving directory '/home/jigsaw/workspace/sppurv/sppurv_school/_homework/vezba03/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/hk-47/workspace/sppurv/sppurv_school/_homework/vezba03/cmake-build-debug/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/jigsaw/workspace/sppurv/sppurv_school/_homework/vezba03/cmake-build-debug/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_feb96/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_feb96.dir/build.make CMakeFiles/cmTC_feb96.dir/build]
-  ignore line: [make[1]: Entering directory '/home/hk-47/workspace/sppurv/sppurv_school/_homework/vezba03/cmake-build-debug/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_feb96.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTC_feb96.dir/CMakeCXXCompilerABI.cpp.o -c /home/hk-47/Downloads/_zips/_extracts/CLion-2018.3.4/clion-2018.3.4/bin/cmake/linux/share/cmake-3.13/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTC_feb96]
-  ignore line: [/home/hk-47/Downloads/_zips/_extracts/CLion-2018.3.4/clion-2018.3.4/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_feb96.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/c++      -v CMakeFiles/cmTC_feb96.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_feb96 ]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_5147e/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_5147e.dir/build.make CMakeFiles/cmTC_5147e.dir/build]
+  ignore line: [make[1]: Entering directory '/home/jigsaw/workspace/sppurv/sppurv_school/_homework/vezba03/cmake-build-debug/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_5147e.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTC_5147e.dir/CMakeCXXCompilerABI.cpp.o -c /home/jigsaw/Downloads/_zips/_extracted/CLion-2018.3.4/clion-2018.3.4/bin/cmake/linux/share/cmake-3.13/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_5147e]
+  ignore line: [/home/jigsaw/Downloads/_zips/_extracted/CLion-2018.3.4/clion-2018.3.4/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5147e.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++      -v CMakeFiles/cmTC_5147e.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_5147e ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/c++]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/lto-wrapper]
@@ -259,13 +259,13 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc version 8.2.1 20181127 (GCC) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_feb96' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccL8JpFR.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_feb96 /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../.. CMakeFiles/cmTC_feb96.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_5147e' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccIl463I.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_5147e /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../.. CMakeFiles/cmTC_5147e.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib/crtn.o]
     arg [/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccL8JpFR.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccIl463I.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -280,7 +280,7 @@ Parsed CXX implicit link information from above output:
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-pie] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_feb96] ==> ignore
+    arg [cmTC_5147e] ==> ignore
     arg [/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib/Scrt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/crtbeginS.o] ==> ignore
@@ -289,7 +289,7 @@ Parsed CXX implicit link information from above output:
     arg [-L/lib/../lib] ==> dir [/lib/../lib]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../..] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../..]
-    arg [CMakeFiles/cmTC_feb96.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_5147e.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -312,17 +312,17 @@ Parsed CXX implicit link information from above output:
 
 
 Detecting CXX [-std=c++2a] compiler features compiled with the following output:
-Change Dir: /home/hk-47/workspace/sppurv/sppurv_school/_homework/vezba03/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/jigsaw/workspace/sppurv/sppurv_school/_homework/vezba03/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_bda65/fast"
-/usr/bin/make -f CMakeFiles/cmTC_bda65.dir/build.make CMakeFiles/cmTC_bda65.dir/build
-make[1]: Entering directory '/home/hk-47/workspace/sppurv/sppurv_school/_homework/vezba03/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_bda65.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++2a -o CMakeFiles/cmTC_bda65.dir/feature_tests.cxx.o -c /home/hk-47/workspace/sppurv/sppurv_school/_homework/vezba03/cmake-build-debug/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_bda65
-/home/hk-47/Downloads/_zips/_extracts/CLion-2018.3.4/clion-2018.3.4/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bda65.dir/link.txt --verbose=1
-/usr/bin/c++       CMakeFiles/cmTC_bda65.dir/feature_tests.cxx.o  -o cmTC_bda65 
-make[1]: Leaving directory '/home/hk-47/workspace/sppurv/sppurv_school/_homework/vezba03/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_a3eca/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a3eca.dir/build.make CMakeFiles/cmTC_a3eca.dir/build
+make[1]: Entering directory '/home/jigsaw/workspace/sppurv/sppurv_school/_homework/vezba03/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_a3eca.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++2a -o CMakeFiles/cmTC_a3eca.dir/feature_tests.cxx.o -c /home/jigsaw/workspace/sppurv/sppurv_school/_homework/vezba03/cmake-build-debug/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_a3eca
+/home/jigsaw/Downloads/_zips/_extracted/CLion-2018.3.4/clion-2018.3.4/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a3eca.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_a3eca.dir/feature_tests.cxx.o  -o cmTC_a3eca 
+make[1]: Leaving directory '/home/jigsaw/workspace/sppurv/sppurv_school/_homework/vezba03/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -385,17 +385,17 @@ make[1]: Leaving directory '/home/hk-47/workspace/sppurv/sppurv_school/_homework
 
 
 Detecting CXX [-std=c++17] compiler features compiled with the following output:
-Change Dir: /home/hk-47/workspace/sppurv/sppurv_school/_homework/vezba03/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/jigsaw/workspace/sppurv/sppurv_school/_homework/vezba03/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_1ba90/fast"
-/usr/bin/make -f CMakeFiles/cmTC_1ba90.dir/build.make CMakeFiles/cmTC_1ba90.dir/build
-make[1]: Entering directory '/home/hk-47/workspace/sppurv/sppurv_school/_homework/vezba03/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_1ba90.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++17 -o CMakeFiles/cmTC_1ba90.dir/feature_tests.cxx.o -c /home/hk-47/workspace/sppurv/sppurv_school/_homework/vezba03/cmake-build-debug/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_1ba90
-/home/hk-47/Downloads/_zips/_extracts/CLion-2018.3.4/clion-2018.3.4/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1ba90.dir/link.txt --verbose=1
-/usr/bin/c++       CMakeFiles/cmTC_1ba90.dir/feature_tests.cxx.o  -o cmTC_1ba90 
-make[1]: Leaving directory '/home/hk-47/workspace/sppurv/sppurv_school/_homework/vezba03/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_7359c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7359c.dir/build.make CMakeFiles/cmTC_7359c.dir/build
+make[1]: Entering directory '/home/jigsaw/workspace/sppurv/sppurv_school/_homework/vezba03/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_7359c.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++17 -o CMakeFiles/cmTC_7359c.dir/feature_tests.cxx.o -c /home/jigsaw/workspace/sppurv/sppurv_school/_homework/vezba03/cmake-build-debug/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_7359c
+/home/jigsaw/Downloads/_zips/_extracted/CLion-2018.3.4/clion-2018.3.4/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7359c.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_7359c.dir/feature_tests.cxx.o  -o cmTC_7359c 
+make[1]: Leaving directory '/home/jigsaw/workspace/sppurv/sppurv_school/_homework/vezba03/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -458,17 +458,17 @@ make[1]: Leaving directory '/home/hk-47/workspace/sppurv/sppurv_school/_homework
 
 
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
-Change Dir: /home/hk-47/workspace/sppurv/sppurv_school/_homework/vezba03/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/jigsaw/workspace/sppurv/sppurv_school/_homework/vezba03/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_be26b/fast"
-/usr/bin/make -f CMakeFiles/cmTC_be26b.dir/build.make CMakeFiles/cmTC_be26b.dir/build
-make[1]: Entering directory '/home/hk-47/workspace/sppurv/sppurv_school/_homework/vezba03/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_be26b.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++14 -o CMakeFiles/cmTC_be26b.dir/feature_tests.cxx.o -c /home/hk-47/workspace/sppurv/sppurv_school/_homework/vezba03/cmake-build-debug/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_be26b
-/home/hk-47/Downloads/_zips/_extracts/CLion-2018.3.4/clion-2018.3.4/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_be26b.dir/link.txt --verbose=1
-/usr/bin/c++       CMakeFiles/cmTC_be26b.dir/feature_tests.cxx.o  -o cmTC_be26b 
-make[1]: Leaving directory '/home/hk-47/workspace/sppurv/sppurv_school/_homework/vezba03/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_f2fda/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f2fda.dir/build.make CMakeFiles/cmTC_f2fda.dir/build
+make[1]: Entering directory '/home/jigsaw/workspace/sppurv/sppurv_school/_homework/vezba03/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_f2fda.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++14 -o CMakeFiles/cmTC_f2fda.dir/feature_tests.cxx.o -c /home/jigsaw/workspace/sppurv/sppurv_school/_homework/vezba03/cmake-build-debug/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_f2fda
+/home/jigsaw/Downloads/_zips/_extracted/CLion-2018.3.4/clion-2018.3.4/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f2fda.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_f2fda.dir/feature_tests.cxx.o  -o cmTC_f2fda 
+make[1]: Leaving directory '/home/jigsaw/workspace/sppurv/sppurv_school/_homework/vezba03/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -531,17 +531,17 @@ make[1]: Leaving directory '/home/hk-47/workspace/sppurv/sppurv_school/_homework
 
 
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
-Change Dir: /home/hk-47/workspace/sppurv/sppurv_school/_homework/vezba03/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/jigsaw/workspace/sppurv/sppurv_school/_homework/vezba03/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_fc522/fast"
-/usr/bin/make -f CMakeFiles/cmTC_fc522.dir/build.make CMakeFiles/cmTC_fc522.dir/build
-make[1]: Entering directory '/home/hk-47/workspace/sppurv/sppurv_school/_homework/vezba03/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_fc522.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_fc522.dir/feature_tests.cxx.o -c /home/hk-47/workspace/sppurv/sppurv_school/_homework/vezba03/cmake-build-debug/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_fc522
-/home/hk-47/Downloads/_zips/_extracts/CLion-2018.3.4/clion-2018.3.4/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fc522.dir/link.txt --verbose=1
-/usr/bin/c++       CMakeFiles/cmTC_fc522.dir/feature_tests.cxx.o  -o cmTC_fc522 
-make[1]: Leaving directory '/home/hk-47/workspace/sppurv/sppurv_school/_homework/vezba03/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_cf131/fast"
+/usr/bin/make -f CMakeFiles/cmTC_cf131.dir/build.make CMakeFiles/cmTC_cf131.dir/build
+make[1]: Entering directory '/home/jigsaw/workspace/sppurv/sppurv_school/_homework/vezba03/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_cf131.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_cf131.dir/feature_tests.cxx.o -c /home/jigsaw/workspace/sppurv/sppurv_school/_homework/vezba03/cmake-build-debug/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_cf131
+/home/jigsaw/Downloads/_zips/_extracted/CLion-2018.3.4/clion-2018.3.4/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cf131.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_cf131.dir/feature_tests.cxx.o  -o cmTC_cf131 
+make[1]: Leaving directory '/home/jigsaw/workspace/sppurv/sppurv_school/_homework/vezba03/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -604,17 +604,17 @@ make[1]: Leaving directory '/home/hk-47/workspace/sppurv/sppurv_school/_homework
 
 
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
-Change Dir: /home/hk-47/workspace/sppurv/sppurv_school/_homework/vezba03/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/jigsaw/workspace/sppurv/sppurv_school/_homework/vezba03/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_a1052/fast"
-/usr/bin/make -f CMakeFiles/cmTC_a1052.dir/build.make CMakeFiles/cmTC_a1052.dir/build
-make[1]: Entering directory '/home/hk-47/workspace/sppurv/sppurv_school/_homework/vezba03/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_a1052.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTC_a1052.dir/feature_tests.cxx.o -c /home/hk-47/workspace/sppurv/sppurv_school/_homework/vezba03/cmake-build-debug/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_a1052
-/home/hk-47/Downloads/_zips/_extracts/CLion-2018.3.4/clion-2018.3.4/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a1052.dir/link.txt --verbose=1
-/usr/bin/c++       CMakeFiles/cmTC_a1052.dir/feature_tests.cxx.o  -o cmTC_a1052 
-make[1]: Leaving directory '/home/hk-47/workspace/sppurv/sppurv_school/_homework/vezba03/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_c4779/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c4779.dir/build.make CMakeFiles/cmTC_c4779.dir/build
+make[1]: Entering directory '/home/jigsaw/workspace/sppurv/sppurv_school/_homework/vezba03/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_c4779.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTC_c4779.dir/feature_tests.cxx.o -c /home/jigsaw/workspace/sppurv/sppurv_school/_homework/vezba03/cmake-build-debug/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_c4779
+/home/jigsaw/Downloads/_zips/_extracted/CLion-2018.3.4/clion-2018.3.4/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c4779.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_c4779.dir/feature_tests.cxx.o  -o cmTC_c4779 
+make[1]: Leaving directory '/home/jigsaw/workspace/sppurv/sppurv_school/_homework/vezba03/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers

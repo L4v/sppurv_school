@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/hk-47/workspace/sppurv/sppurv_school/_homework/vezba03/main.cpp" "/home/hk-47/workspace/sppurv/sppurv_school/_homework/vezba03/cmake-build-debug/CMakeFiles/vezba03.dir/main.cpp.o"
-  "/home/hk-47/workspace/sppurv/sppurv_school/_homework/vezba03/matrixFunctions.cpp" "/home/hk-47/workspace/sppurv/sppurv_school/_homework/vezba03/cmake-build-debug/CMakeFiles/vezba03.dir/matrixFunctions.cpp.o"
+  "/home/jigsaw/workspace/sppurv/sppurv_school/_homework/vezba03/main.cpp" "/home/jigsaw/workspace/sppurv/sppurv_school/_homework/vezba03/cmake-build-debug/CMakeFiles/vezba03.dir/main.cpp.o"
+  "/home/jigsaw/workspace/sppurv/sppurv_school/_homework/vezba03/matrixFunctions.cpp" "/home/jigsaw/workspace/sppurv/sppurv_school/_homework/vezba03/cmake-build-debug/CMakeFiles/vezba03.dir/matrixFunctions.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

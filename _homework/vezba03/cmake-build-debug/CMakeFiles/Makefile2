@@ -50,19 +50,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/hk-47/Downloads/_zips/_extracts/CLion-2018.3.4/clion-2018.3.4/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /home/jigsaw/Downloads/_zips/_extracted/CLion-2018.3.4/clion-2018.3.4/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /home/hk-47/Downloads/_zips/_extracts/CLion-2018.3.4/clion-2018.3.4/bin/cmake/linux/bin/cmake -E remove -f
+RM = /home/jigsaw/Downloads/_zips/_extracted/CLion-2018.3.4/clion-2018.3.4/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hk-47/workspace/sppurv/sppurv_school/_homework/vezba03
+CMAKE_SOURCE_DIR = /home/jigsaw/workspace/sppurv/sppurv_school/_homework/vezba03
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hk-47/workspace/sppurv/sppurv_school/_homework/vezba03/cmake-build-debug
+CMAKE_BINARY_DIR = /home/jigsaw/workspace/sppurv/sppurv_school/_homework/vezba03/cmake-build-debug
 
 #=============================================================================
 # Target rules for target CMakeFiles/vezba03.dir
@@ -71,7 +71,7 @@ CMAKE_BINARY_DIR = /home/hk-47/workspace/sppurv/sppurv_school/_homework/vezba03/
 CMakeFiles/vezba03.dir/all:
 	$(MAKE) -f CMakeFiles/vezba03.dir/build.make CMakeFiles/vezba03.dir/depend
 	$(MAKE) -f CMakeFiles/vezba03.dir/build.make CMakeFiles/vezba03.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hk-47/workspace/sppurv/sppurv_school/_homework/vezba03/cmake-build-debug/CMakeFiles --progress-num=1,2,3 "Built target vezba03"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jigsaw/workspace/sppurv/sppurv_school/_homework/vezba03/cmake-build-debug/CMakeFiles --progress-num=1,2,3 "Built target vezba03"
 .PHONY : CMakeFiles/vezba03.dir/all
 
 # Include target in all.
@@ -81,9 +81,9 @@ all: CMakeFiles/vezba03.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/vezba03.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hk-47/workspace/sppurv/sppurv_school/_homework/vezba03/cmake-build-debug/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jigsaw/workspace/sppurv/sppurv_school/_homework/vezba03/cmake-build-debug/CMakeFiles 3
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/vezba03.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hk-47/workspace/sppurv/sppurv_school/_homework/vezba03/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jigsaw/workspace/sppurv/sppurv_school/_homework/vezba03/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/vezba03.dir/rule
 
 # Convenience name for target.

@@ -1,3 +1,3 @@
-/home/hk-47/workspace/sppurv/sppurv_school/_homework/vezba03/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/hk-47/workspace/sppurv/sppurv_school/_homework/vezba03/cmake-build-debug/CMakeFiles/vezba03.dir
-/home/hk-47/workspace/sppurv/sppurv_school/_homework/vezba03/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/jigsaw/workspace/sppurv/sppurv_school/_homework/vezba03/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/jigsaw/workspace/sppurv/sppurv_school/_homework/vezba03/cmake-build-debug/CMakeFiles/vezba03.dir
+/home/jigsaw/workspace/sppurv/sppurv_school/_homework/vezba03/cmake-build-debug/CMakeFiles/edit_cache.dir
