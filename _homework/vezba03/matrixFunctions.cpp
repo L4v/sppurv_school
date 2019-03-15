@@ -58,17 +58,60 @@ void matrixFunctions::printMatrix2D(int **matrix, int n, int m) {
 }
 
 void matrixFunctions::sortMatrix2D(int **matrix, int n, int m) {
-    bool t = false;
-    int index;
-    for(int i = 0; i < n*m - 1; i ++){
-        for(int j = 0; j < n*m - i - 1; j++){
-            index = t ? m - j - 1: j;
-            if(matrix[i/n][i%m] < matrix[j/m][j%m]){
-                int tmp = matrix[i/n][i%4];
-                matrix[i/4][i%4] = matrix[j/4][j%4];
-                matrix[j/4][j%4] = tmp;
+    for(int i = 0; i < n*m; i++){
+        for(int j = 0; j < n*m; j++){
+            int a = i/m, b = i%m, c = j/m, d = j%m;
+            if(matrix[a][b] > matrix[c][d]){
+                int tmp = matrix[a][b];
+                matrix[a][b] = matrix[c][d];
+                matrix[c][d] = tmp;
             }
         }
-        t = !t;
+    }
+    /*bool rl = false;
+    for(int k = 0; k < n; k++){
+        for(int i = 0; i < m - 1; i++){
+            for(int j = 0; j < m - i - 1;j++){
+                if(!rl){
+                    if(matrix[k][j] < matrix[k][j+1]){
+                        int tmp = matrix[k][j];
+                        matrix[k][j] = matrix[k][j+1];
+                        matrix[k][j+1] = tmp;
+                    }
+                }else{
+                    if(matrix[k][j] > matrix[k][j+1]) {
+                        int tmp = matrix[k][j];
+                        matrix[k][j] = matrix[k][j + 1];
+                        matrix[k][j + 1] = tmp;
+                    }
+                }
+            }
+            rl = !rl;
+        }
+    }*/
+    bool rl = false;
+    for(int k = 0; k < n; k++){
+        for(int i = 0; i < m - 1; i ++) {
+            /*if(i%m == 0){ rl = !rl; }
+
+            cout << matrix[i / m][rl ? m - i%m - 1 : i%m] << " ";
+            if((i+1)%m == 0 && i != 0){ cout << endl;}*/
+            for(int j = 0; j < m - i - 1; j ++){
+                if(rl){
+                    if(matrix[k][j] > matrix[k][j+1]){
+                        int tmp = matrix[k][j];
+                        matrix[k][j] = matrix[k][j+1];
+                        matrix[k][j+1] = tmp;
+                    }
+                }else{
+                    if(matrix[k][j] < matrix[k][j+1]){
+                        int tmp = matrix[k][j];
+                        matrix[k][j] = matrix[k][j+1];
+                        matrix[k][j+1] = tmp;
+                    }
+                }
+            }
+        }
+        rl = !rl;
     }
 }
