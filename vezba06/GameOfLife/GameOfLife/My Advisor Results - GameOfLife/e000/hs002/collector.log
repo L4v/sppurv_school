@@ -1,0 +1,71 @@
+Collection has been started.
+Peak bandwidth measurement started.
+Peak bandwidth measurement finished.
+Collection has stopped. Application exit code:  0
+Finalizing results
+Finalizing the result
+Clearing the database
+The database has been cleared, elapsed time is 0.685 seconds.
+Loading raw data to the database
+Loading 'systemcollector-6876-jigsaw.sc' file
+Loading '7224-8464.0.trace' file
+Loading '8464-10040.0.trace' file
+Loading '8464-10164.0.trace' file
+Loading '8464-10212.0.trace' file
+Loading '8464-1084.0.trace' file
+Loading '8464-1732.0.trace' file
+Loading '8464-2336.0.trace' file
+Loading '8464-3416.0.trace' file
+Loading '8464-3420.0.trace' file
+Loading '8464-3816.0.trace' file
+Loading '8464-3884.0.trace' file
+Loading '8464-4148.0.trace' file
+Loading '8464-6852.0.trace' file
+Loading '8464-7900.0.trace' file
+Loading '8464-8732.0.trace' file
+Loading '8464-9236.0.trace' file
+Loading '8464-9472.0.trace' file
+Loading '8464-9620.0.trace' file
+Loading '8464-9792.0.trace' file
+Loading '8464-9916.0.trace' file
+Loading '8464-9992.0.trace' file
+Updating precomputed scalar metrics
+Raw data has been loaded to the database, elapsed time is 1.407 seconds.
+Processing profile metrics and debug information
+Data transformations have been finished, elapsed time is 0.000 seconds.
+Setting data model parameters
+Resolving module symbols
+Resolving information for `GameOfLife.exe'
+Resolving information for `cmd.exe'
+Resolving information for `ntdll.dll'
+Resolving information for `kernel32.dll'
+Warning: Cannot locate debugging symbols for file `C:\WINDOWS\SysWOW64\cmd.exe'.
+Warning: Cannot locate debugging symbols for file `C:\Windows\SysWOW64\kernel32.dll'.
+Warning: Cannot locate debugging symbols for file `C:\Windows\SysWOW64\ntdll.dll'.
+Resolving information for `ucrtbase.dll'
+Warning: Cannot locate debugging symbols for file `C:\Windows\SysWOW64\ucrtbase.dll'.
+Resolving bottom user stack information
+Resolving thread name information
+Resolving call target names for dynamic code
+Symbol resolution has been finished, elapsed time is 0.927 seconds.
+Processing profile metrics and debug information
+Processing information for instruction mix report
+Deferred data transformations have been finished, elapsed time is 1.082 seconds.
+Setting data model parameters
+Data model parameters have been set, elapsed time is 0.079 seconds.
+Precomputing frequently used data
+Precomputing frequently used data
+Updating precomputed scalar metrics
+Precomputing frequently used data has been finished, elapsed time is 0.487 seconds.
+Discarding redundant overtime data
+Saving the result
+Redundant overtime data has been discarded, elapsed time is 0.021 seconds.
+Raw collector data has been discarded, elapsed time is 0.000 seconds.
+Finalizing the result took 6.895 seconds.
+Preparing data for display of survey call tree
+Resolving module symbols
+Resolving information for dangling locations
+Resolving bottom user stack information
+Resolving thread name information
+Resolving call target names for dynamic code
+Precomputing frequently used data

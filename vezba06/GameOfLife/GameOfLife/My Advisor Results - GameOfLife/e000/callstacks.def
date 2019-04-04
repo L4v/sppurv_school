@@ -1,0 +1,22 @@
+# callstacks file version: 2
+#    rowid |    parent |       rva | loop | system |                                function | binary | instance rva
+         1 |        -1 |     30388 |    0 |      0 |                          mainCRTStartup | C:\Users\Laza\Documents\workspace\sppurv\sppurv_school\vezba06\GameOfLife\Release\GameOfLife.exe | 30388
+         2 |        -1 |    410007 |    0 |      1 |                         func@0x4b2e417d | C:\Windows\SysWOW64\ntdll.dll | 409981
+         3 |         2 |    410055 |    0 |      1 |                         func@0x4b2e4199 | C:\Windows\SysWOW64\ntdll.dll | 410009
+         4 |         3 |     99475 |    0 |      1 |                     BaseThreadInitThunk | C:\Windows\SysWOW64\kernel32.dll | 99440
+         5 |         4 |     30269 |    0 |      0 |                   _scrt_common_main_seh | C:\Users\Laza\Documents\workspace\sppurv\sppurv_school\vezba06\GameOfLife\Release\GameOfLife.exe | 30021
+         6 |        17 |      4434 |    1 |      0 |               [Loop at line 17 in main] | C:\Users\Laza\Documents\workspace\sppurv\sppurv_school\vezba06\GameOfLife\Release\GameOfLife.exe | 4264
+         7 |         6 |    958165 |    0 |      1 |                         func@0x100e9dca | C:\Windows\SysWOW64\ucrtbase.dll | 957898
+         8 |         7 |    948081 |    0 |      1 |                         func@0x100e7561 | C:\Windows\SysWOW64\ucrtbase.dll | 947553
+         9 |         8 |    950795 |    0 |      1 |                         func@0x100e7ee9 | C:\Windows\SysWOW64\ucrtbase.dll | 949993
+        10 |         9 |    397187 |    0 |      1 |                         func@0x10060eb8 | C:\Windows\SysWOW64\ucrtbase.dll | 396984
+        11 |        17 |      4445 |    1 |      0 |               [Loop at line 17 in main] | C:\Users\Laza\Documents\workspace\sppurv\sppurv_school\vezba06\GameOfLife\Release\GameOfLife.exe | 4264
+        12 |        11 |    958165 |    0 |      1 |                         func@0x100e9dca | C:\Windows\SysWOW64\ucrtbase.dll | 957898
+        13 |        12 |    948081 |    0 |      1 |                         func@0x100e7561 | C:\Windows\SysWOW64\ucrtbase.dll | 947553
+        14 |        13 |    950795 |    0 |      1 |                         func@0x100e7ee9 | C:\Windows\SysWOW64\ucrtbase.dll | 949993
+        15 |        14 |    397187 |    0 |      1 |                         func@0x10060eb8 | C:\Windows\SysWOW64\ucrtbase.dll | 396984
+        16 |        -1 |     94144 |    0 |      1 |                           func@0x416fc0 | C:\WINDOWS\SysWOW64\cmd.exe | 94144
+        17 |         5 |      4264 |    0 |      0 |                                    main | C:\Users\Laza\Documents\workspace\sppurv\sppurv_school\vezba06\GameOfLife\Release\GameOfLife.exe | 4096
+        18 |         5 |      4434 |    0 |      0 |                                    main | C:\Users\Laza\Documents\workspace\sppurv\sppurv_school\vezba06\GameOfLife\Release\GameOfLife.exe | 4096
+        19 |         5 |      4445 |    0 |      0 |                                    main | C:\Users\Laza\Documents\workspace\sppurv\sppurv_school\vezba06\GameOfLife\Release\GameOfLife.exe | 4096
+        20 |        -1 |         0 |    0 |      0 |                [Unknown stack frame(s)] | n/a | 0
