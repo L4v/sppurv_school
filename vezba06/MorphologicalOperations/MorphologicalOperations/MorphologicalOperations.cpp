@@ -203,7 +203,7 @@ void MorphologicalOperations::doClosingSerial()
 	}
 }
 
-void MorphologicalOperations::fun1(int begin1, int end1, int begin2, int end2){
+void MorphologicalOperations::erosion(int begin1, int end1, int begin2, int end2){
 	for (int row = begin2; row < end2; row++)
 	{
 		for (int col = begin1; col < end1; col++)
@@ -217,7 +217,7 @@ void MorphologicalOperations::fun1(int begin1, int end1, int begin2, int end2){
 	}
 }
 
-void MorphologicalOperations::fun2(int begin1, int end1, int begin2, int end2) {
+void MorphologicalOperations::copy_input_to_output(int begin1, int end1, int begin2, int end2) {
 	for (int row = begin2; row < end2; row++)
 	{
 		for (int col = begin1; col < end1; col++)
@@ -227,7 +227,7 @@ void MorphologicalOperations::fun2(int begin1, int end1, int begin2, int end2) {
 	}
 }
 
-void MorphologicalOperations::fun3(int begin1, int end1, int begin2, int end2) {
+void MorphologicalOperations::dilatation(int begin1, int end1, int begin2, int end2) {
 	for (int row = begin2; row < end2; row++)
 	{
 		for (int col = begin1; col < end1; col++)
@@ -241,53 +241,53 @@ void MorphologicalOperations::fun3(int begin1, int end1, int begin2, int end2) {
 	}
 }
 
-void MorphologicalOperations::recursive1(int begin1, int end1, int begin2, int end2) {
+void MorphologicalOperations::recursive_erosion(int begin1, int end1, int begin2, int end2) {
 	int granulacija = m_width / 8;
 	int increment1 = (end1 - begin1) / 2;
 	int increment2 = (end2 - begin2) / 2;
-	if (end1 - begin1 <= granulacija) fun1(begin1, end1, begin2, end2);
+	if (end1 - begin1 <= granulacija) erosion(begin1, end1, begin2, end2);
 	else {
-		cilk_spawn recursive1(begin1, begin1 + increment1, begin2, begin2 + increment2);
-		cilk_spawn recursive1(begin1, begin1 + increment1, begin2 + increment2, end2);
-		cilk_spawn recursive1(begin1 + increment1, end1, begin2, begin2 + increment2);
-		recursive1(begin1 + increment1, end1, begin2 + increment2, end2);
+		cilk_spawn recursive_erosion(begin1, begin1 + increment1, begin2, begin2 + increment2); // Upper left quadrant
+		cilk_spawn recursive_erosion(begin1, begin1 + increment1, begin2 + increment2, end2); // Lower left quadrant
+		cilk_spawn recursive_erosion(begin1 + increment1, end1, begin2, begin2 + increment2); // Upper right quadrant
+		recursive_erosion(begin1 + increment1, end1, begin2 + increment2, end2); // Lower right quadrant
 		cilk_sync;
 	}
 }
 
-void MorphologicalOperations::recursive2(int begin1, int end1, int begin2, int end2) {
+void MorphologicalOperations::recursive_cito(int begin1, int end1, int begin2, int end2) {
 	int granulacija = m_width / 8;
 	int increment1 = (end1 - begin1) / 2;
 	int increment2 = (end2 - begin2) / 2;
-	if (end1 - begin1 <= granulacija) fun2(begin1, end1, begin2, end2);
+	if (end1 - begin1 <= granulacija) copy_input_to_output(begin1, end1, begin2, end2);
 	else {
-		cilk_spawn recursive2(begin1, begin1 + increment1, begin2, begin2 + increment2);
-		cilk_spawn recursive2(begin1, begin1 + increment1, begin2 + increment2, end2);
-		cilk_spawn recursive2(begin1 + increment1, end1, begin2, begin2 + increment2);
-		recursive2(begin1 + increment1, end1, begin2 + increment2, end2);
+		cilk_spawn recursive_cito(begin1, begin1 + increment1, begin2, begin2 + increment2); // Upper left quadrant
+		cilk_spawn recursive_cito(begin1, begin1 + increment1, begin2 + increment2, end2); // Lower left quadrant
+		cilk_spawn recursive_cito(begin1 + increment1, end1, begin2, begin2 + increment2); // Upper right quadrant
+		recursive_cito(begin1 + increment1, end1, begin2 + increment2, end2); // Lower right quadrant
 		cilk_sync;
 	}
 }
 
-void MorphologicalOperations::recursive3(int begin1, int end1, int begin2, int end2) {
+void MorphologicalOperations::recursive_dilatation(int begin1, int end1, int begin2, int end2) {
 	int granulacija = m_width / 8;
 	int increment1 = (end1 - begin1) / 2;
 	int increment2 = (end2 - begin2) / 2;
-	if (end1 - begin1 <= granulacija) fun3(begin1, end1, begin2, end2);
+	if (end1 - begin1 <= granulacija) dilatation(begin1, end1, begin2, end2);
 	else {
-		cilk_spawn recursive3(begin1, begin1 + increment1, begin2, begin2 + increment2);
-		cilk_spawn recursive3(begin1, begin1 + increment1, begin2 + increment2, end2);
-		cilk_spawn recursive3(begin1 + increment1, end1, begin2, begin2 + increment2);
-		recursive3(begin1 + increment1, end1, begin2 + increment2, end2);
+		cilk_spawn recursive_dilatation(begin1, begin1 + increment1, begin2, begin2 + increment2); // Upper left quadrant
+		cilk_spawn recursive_dilatation(begin1, begin1 + increment1, begin2 + increment2, end2); // Lower left quadrant
+		cilk_spawn recursive_dilatation(begin1 + increment1, end1, begin2, begin2 + increment2); // Upper right quadrant
+		recursive_dilatation(begin1 + increment1, end1, begin2 + increment2, end2); // Lower right quadrant
 		cilk_sync;
 	}
 }
 
 void MorphologicalOperations::doClosingParallel()
 {
-	recursive1(0, m_width, 0, m_height);
-	recursive2(0, m_width, 0, m_height);
-	recursive3(0, m_width, 0, m_height);
+	recursive_erosion(0, m_width, 0, m_height);
+	recursive_cito(0, m_width, 0, m_height);
+	recursive_dilatation(0, m_width, 0, m_height);
 }
 
 

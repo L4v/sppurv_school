@@ -66,9 +66,19 @@ public:
 	*/
 	void doClosingParallel();
 
-	void recursive1(int, int, int, int);
-	void recursive2(int, int, int, int);
-	void recursive3(int, int, int, int);
+	/**
+	* @brief Recursive methods for induvidual calculations
+	*/
+	void recursive_erosion(int, int, int, int);
+	void recursive_cito(int, int, int, int);
+	void recursive_dilatation(int, int, int, int);
+	
+	/**
+	* @brief Methods for individual calculations, for loops from doClosingSerial() divided into 3 methods
+	*/
+	void erosion(int, int, int, int);
+	void copy_input_to_output(int, int, int, int);
+	void dilatation(int, int, int, int);
 
 	/**
 	* @brief Load input image from file.
@@ -80,8 +90,5 @@ public:
 	*/
 	void saveOutputImage(const char* fileName);
 
-	void MorphologicalOperations::fun1(int, int, int, int);
-	void MorphologicalOperations::fun2(int, int, int, int);
-	void MorphologicalOperations::fun3(int, int, int, int);
 
 };
