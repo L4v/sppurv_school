@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="MorphologicalOperations.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="EasyBitmap\BitmapRawConverter.cpp">
+      <Filter>EasyBitmap</Filter>
+    </ClCompile>
+    <ClCompile Include="EasyBitmap\EasyBMP.cpp">
+      <Filter>EasyBitmap</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="cilktime.h" />
+    <ClInclude Include="MorphologicalOperations.h" />
+    <ClInclude Include="EasyBitmap\BitmapRawConverter.h">
+      <Filter>EasyBitmap</Filter>
+    </ClInclude>
+    <ClInclude Include="EasyBitmap\EasyBMP.h">
+      <Filter>EasyBitmap</Filter>
+    </ClInclude>
+    <ClInclude Include="EasyBitmap\EasyBMP_BMP.h">
+      <Filter>EasyBitmap</Filter>
+    </ClInclude>
+    <ClInclude Include="EasyBitmap\EasyBMP_DataStructures.h">
+      <Filter>EasyBitmap</Filter>
+    </ClInclude>
+    <ClInclude Include="EasyBitmap\EasyBMP_VariousBMPutilities.h">
+      <Filter>EasyBitmap</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="EasyBitmap">
+      <UniqueIdentifier>{3e32a229-aed4-410c-8a11-6b97443d4560}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
